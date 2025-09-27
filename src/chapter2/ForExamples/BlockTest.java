@@ -1,4 +1,4 @@
-package ForExamples;
+package chapter2.ForExamples;
 
 public class BlockTest {
     public static void main(String[] args) {
