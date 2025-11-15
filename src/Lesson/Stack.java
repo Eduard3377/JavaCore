@@ -4,7 +4,7 @@ public class Stack {
     int[] array = new int[10];
     int tos;
 
-    Stack() {
+   public Stack() {
         tos = -1;
     }
 
