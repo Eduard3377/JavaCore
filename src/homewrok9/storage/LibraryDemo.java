@@ -76,11 +76,8 @@ public class LibraryDemo {
         System.out.println("Please input book quantity");
         int quantity = Integer.parseInt(scanner.nextLine());
         Book book = new Book(bookTitle, authorName, price, bookId, quantity);
-//        Book book = new Book();
-//        book.setTitle(bookTitle);
-//        book.setPrice(price);
-//        book.setAuthorName(authorName);
-//        book.setId(bookId);
+
+
 
         boolean x = bookStorage.add(book);
         if (x) {
